@@ -1,0 +1,22 @@
+# Core data stack
+numpy
+pandas
+scipy
+
+# Finance data
+yfinance
+
+# Machine learning
+scikit-learn
+xgboost
+feature-engine
+
+# Visualization
+matplotlib
+seaborn
+
+# App framework
+streamlit
+
+# Date handling
+python-dateutil
