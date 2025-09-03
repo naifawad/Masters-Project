@@ -24,6 +24,6 @@ The project evaluates classical and machine-learning–enhanced portfolio optimi
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/portfolio-optimization.git
-cd portfolio-optimization
+git clone https://github.com/naifawad/Masters-Project.git
+cd Masters-Project
 pip install -r requirements.txt
