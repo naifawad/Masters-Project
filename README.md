@@ -10,12 +10,13 @@ The project evaluates classical and machine-learning–enhanced portfolio optimi
 
 ## 📂 Repository Structure
 
-- **`mean_variance_optimization.py`** – Classical Mean-Variance Optimization (Markowitz, 1952) with constraints.  
-- **`machine_learning_strategies.py`** – Feature engineering + ML models (RF, GBM, XGBoost) with walk-forward validation.
+- **`mean_variance_optimization.py`** – Classical Mean-Variance Optimization (Markowitz, 1952).  
+- **`machine_learning_strategies.py`** – Feature engineering + ML models (RF+GB Ensemble) with walk-forward validation.
 - **`hrp.py`** – Hierarchical Risk Parity allocation (López de Prado, 2016/2020).  
 - **`rp.py`** – Risk Parity (inverse volatility weights).  
-- **`rebalancing.py`** – Rolling-window backtests (monthly and deviation-based rebalancing).
-- **`portfolio_statistics.py`** – Performance metrics (Sharpe, Sortino, Max Drawdown, Volatility, Turnover).  
+- **`rebalancing.py`** – Rolling-window backtests (monthly).
+- **`portfolio_statistics.py`** – Performance metrics (Sharpe, Sortino, Max Drawdown, Volatility, Turnover).
+- **`app1.py`** – Streamlit dashboard for educational purpose where user can see how each optimizing strategy allocates assets.
 
 
 ---
